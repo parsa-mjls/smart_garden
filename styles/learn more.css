@@ -1,0 +1,73 @@
+.background-1 {
+    width: 503px;
+    height: 973px;
+    flex-shrink: 0;
+    margin: auto;
+    display: flex;
+    direction: rtl;
+    border-radius: 45px;
+    flex-direction: column;
+    background: linear-gradient(165deg, #8AF025 2.01%, #C9F150 44.8%, #D4EA74 79.73%, #FDFDFD 96.45%);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+
+
+}
+
+.learnmore-topic {
+    color: #000;
+    text-shadow: -8px 6px 5px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    direction: rtl;
+    flex-direction: column;
+    margin-top: 45px;
+
+}
+
+.information-1 {
+    width: 409px;
+    height: 539px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: right;
+    text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    direction: rtl;
+    flex-direction: column;
+    margin-top: 25px;
+
+    
+}
+
+.f-size-1{
+    font-size: 34px;
+
+
+}
+
+.f-size-2{
+    font-size: 35px;
+
+
+}
+
+.f-size-3{
+    margin-top: -10px;
+    font-size: 31px;
+}
+
+.f-size-4{
+    margin-top: -25px;
+    font-size: 27px;
+}

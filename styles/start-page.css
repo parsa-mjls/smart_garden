@@ -1,0 +1,400 @@
+.Main-frame{
+    width: 503px;
+    height: 863px;
+    flex-shrink: 0;
+    background: linear-gradient(165deg, #8AF025 2.01%, #C9F150 44.8%, #D4EA74 79.73%, #FDFDFD 96.45%); 
+    margin: auto;
+    border-radius: 45px;
+    direction: rtl;
+    
+}
+.main-page-menu-icon {
+    display: flex;
+    justify-content: flex;
+   
+}
+.main-page-device {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text within .device-info */
+}
+
+
+
+.Main-frame header{
+    padding-top: 80px;
+    margin: auto;
+    width: 308px;
+    height: 110px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Main-frame header .for-welcome-msg{
+    color: rgba(68, 124, 63, 0.50);
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;   
+    margin: auto;
+}
+
+.Main-frame header .for-togreenhouse-msg{
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;   
+    align-items: center;  
+    margin: auto;
+    
+}
+
+.start-page-flower-1 {
+    width: 502px;
+    height: 223px;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+    mix-blend-mode: darken;
+    overflow: hidden; /* Hide overflow to reveal the image progressively */
+    position: relative; /* Position for absolute child element */
+}
+
+/* Create a pseudo-element to animate the opening effect */
+/* .start-page-flower-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%; /* Initially hide the pseudo-element */
+/*    width: 100%;
+    height: 100%;
+    background: lightgray 50%;
+    animation: openImage 3s linear forwards; /* Adjust animation duration as needed 
+}
+
+ Define the animation 
+@keyframes openImage {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 0;
+    }
+} */
+
+
+.start-button{
+    width: 280px;
+    height: 88px;
+    flex-shrink: 0;
+    border-radius: 45px;
+    border: 1px solid #000;
+    background: #479B40;
+    box-shadow: -10px -7px 10px 3px rgba(29, 8, 8, 0.25);
+    color: rgba(0, 0, 0, 0.80);
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: auto;
+    padding: auto;
+}
+
+.start-button a{
+    margin: auto;
+    padding: 20px;
+    text-decoration: none;
+    line-height: 88px;
+}
+
+.start-button a:hover{
+    color: #FDFDFD;
+}
+.start-page-flower-2{
+    width: 502px;
+    height: 225px;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+    mix-blend-mode: darken;
+    border-radius: 45px;
+}
+
+.Main-frame .menu-icon{
+    width: 119px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 0px 45px 0px 0px;
+    border: 0px solid #1DEF97;
+    background: #4ABC78;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.40); 
+
+    direction: rtl;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Center text */
+.device-info p {
+    margin: 0; /* Remove default margin */
+    margin: 10px 0 0
+}
+
+/* Styles for the "Change Device" button */
+.device-info button {
+    margin-top: 10px; /* Add space between the text and the button */
+}
+
+#device-list li{
+   border: #000 1px solid; 
+   padding: 2px 20 0 20px;
+}
+#device-list ul {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+.main-page-buttons{
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between; /* Equal spacing between elements */
+    align-items: center; /* Vertically center elements */
+    padding: 0 35px; /* Add 20px padding on both sides */
+}
+
+.button-flower-dryness,
+.button-atmosphere {
+    text-decoration: none;
+    width: calc(50% - 10px); /* 50% width with 10px spacing between boxes */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none; /* Remove border from boxes */
+    border-radius: 10px; /* Add some border-radius for rounded corners */
+    background: linear-gradient(180deg, rgba(7, 13, 1, 0.60) 0%, rgba(35, 64, 5, 0.56) 22.74%, rgba(60, 100, 20, 0.54) 47.92%, rgba(55, 108, 2, 0.28) 76.39%, rgba(23, 34, 13, 0.00) 100%);
+}
+
+.button-flower-dryness{
+    width: 190px;
+    height: 190px;
+    transform: rotate(0.257deg);
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(7, 13, 1, 0.60) 0%, rgba(35, 64, 5, 0.56) 22.74%, rgba(60, 100, 20, 0.54) 47.92%, rgba(55, 108, 2, 0.28) 76.39%, rgba(23, 34, 13, 0.00) 100%);  
+}
+.button-atmosphere{
+    width: 190px;
+    height: 190px;
+    transform: rotate(0.257deg);
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(7, 13, 1, 0.60) 0%, rgba(35, 64, 5, 0.56) 22.74%, rgba(60, 100, 20, 0.54) 47.92%, rgba(55, 108, 2, 0.28) 76.39%, rgba(23, 34, 13, 0.00) 100%);  
+}
+
+.main-page-buttons a {
+    text-decoration: none; /* Remove underline */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: none; /* Remove the line below */
+}
+
+.main-page-buttons h3{
+    width: 120px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.main-page-buttons p{
+    width: 105px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #000;
+    text-shadow: -6px 6px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.volume-knob-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px; 
+
+}
+
+/* Style for the volume slider input */
+.volume-slider {
+    width: 60px;
+    margin:auto;
+    position: relative;
+    margin: inherit;
+    margin: auto 44%;
+}
+
+.knob-surround {
+    position: relative;
+    background-color: grey;
+    width: 14em;
+    height: 14em;
+    border-radius: 50%;
+    border: solid 0.25em #0e0e0e;
+    margin: 5em auto;
+    background: #181818;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #1d1d1d), color-stop(1, #131313));
+    background: -ms-linear-gradient(bottom, #1d1d1d, #131313);
+    background: -moz-linear-gradient(center bottom, #1d1d1d 0%, #131313 100%);
+    background: -o-linear-gradient(#131313, #1d1d1d);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#131313', endColorstr='#1d1d1d', GradientType=0);
+    -webkit-box-shadow: 0 0.2em 0.1em 0.05em rgba(255, 255, 255, 0.1) inset, 0 -0.2em 0.1em 0.05em rgba(0, 0, 0, 0.5) inset, 0 0.5em 0.65em 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0.2em 0.1em 0.05em rgba(255, 255, 255, 0.1) inset, 0 -0.2em 0.1em 0.05em rgba(0, 0, 0, 0.5) inset, 0 0.5em 0.65em 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.2em 0.1em 0.05em rgba(255, 255, 255, 0.1) inset, 0 -0.2em 0.1em 0.05em rgba(0, 0, 0, 0.5) inset, 0 0.5em 0.65em 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .knob {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    z-index: 10;
+  }
+  .knob::after {
+    content: "";
+    position: absolute;
+    bottom: 19%;
+    left: 19%;
+    width: 3%;
+    height: 3%;
+    background-color: #a8d8f8;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 0.4em 0 #79c3f4;
+    -moz-box-shadow: 0 0 0.4em 0 #79c3f4;
+    box-shadow: 0 0 0.4em 0 #79c3f4;
+  }
+  .min,
+  .max {
+    display: block;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    font-size: 70%;
+    position: absolute;
+    color: #000;
+    text-shadow: -6px 6px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 24;
+}
+  
+  .min {
+    bottom: 1em;
+    left: -2.5em;
+  }
+  .max {
+    bottom: 1em;
+    right: -2.5em;
+  }
+  .tick {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    overflow: visible;
+  }
+  .tick::after {
+    content: "";
+    width: 0.08em;
+    height: 0.6em;
+    background-color: rgba(244, 2, 2, 0.995);
+    position: absolute;
+    top: -1.5em;
+    left: 50%;
+    -webkit-transition: all 180ms ease-out;
+    -moz-transition: all 180ms ease-out;
+    -o-transition: all 180ms ease-out;
+    transition: all 180ms ease-out;
+  }
+  .activetick::after {
+    background-color: #6b0ae2;
+    -webkit-box-shadow: 0 0 0.3em 0.08em #79c3f4;
+    -moz-box-shadow: 0 0 0.3em 0.08em #79c3f4;
+    box-shadow: 0 0 0.3em 0.08em #79c3f4;
+    -webkit-transition: all 50ms ease-in;
+    -moz-transition: all 50ms ease-in;
+    -o-transition: all 50ms ease-in;
+    transition: all 50ms ease-in;
+  }
+
+
+
+/* Style for the circular volume knob */
+.volume-knob {
+    width: 250px;
+    height: 250px;
+    background-color: #077c53;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-top: 10px;
+    position: relative;
+    box-shadow:
+        inset 0 0 10px rgba(0, 0, 0, 0.2), /* Inner shadow */
+        0 2px 6px rgba(0, 0, 0, 0.1); /* Outer shadow */
+    cursor: grab;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* When the knob is being dragged */
+.volume-knob.grabbing {
+    background-color: #ddd;
+}
+
+/* Add a circular element to represent the knob's position */
+.knob-position {
+    width: 30px;
+    height: 30px;
+    background-color: #666;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    cursor: inherit;
+}

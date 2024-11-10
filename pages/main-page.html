@@ -1,0 +1,89 @@
+<head>
+    <title>smart gardaning | Main page</title>
+    <link rel="stylesheet" href="../styles/start-page.css">
+    <link rel="stylesheet" href="../styles/side_nav.css">
+</head>
+<body>
+    <div class="Main-frame"> 
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <hr>
+            <div class="side-rect">
+            <a href="../pages/main-page.html">منوی اصلی</a>
+            </div><div class="side-rect">
+            <a href="../pages/library-page.html">کتابخانه گیاهان</a>
+            </div><div class="side-rect">
+            <a href="#">درباره ما</a>
+            </div>
+          </div>
+        <div class="menu main-page-menu-icon">
+            <div class="menu-icon" onclick="openNav()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="73" height="57" viewBox="0 0 73 57" fill="none">
+                    <g filter="url(#filter0_d_90_24)">
+                    <path d="M10.5961 4H28.5764C29.5301 4 30.4448 4.47323 31.1192 5.31558C31.7935 6.15793 32.1724 7.3004 32.1724 8.49167C32.1724 9.68293 31.7935 10.8254 31.1192 11.6678C30.4448 12.5101 29.5301 12.9833 28.5764 12.9833H10.5961C9.64232 12.9833 8.72765 12.5101 8.05326 11.6678C7.37887 10.8254 7 9.68293 7 8.49167C7 7.3004 7.37887 6.15793 8.05326 5.31558C8.72765 4.47323 9.64232 4 10.5961 4ZM35.7685 39.9333H53.7488C54.7025 39.9333 55.6172 40.4066 56.2916 41.2489C56.966 42.0913 57.3448 43.2337 57.3448 44.425C57.3448 45.6163 56.966 46.7587 56.2916 47.6011C55.6172 48.4434 54.7025 48.9167 53.7488 48.9167H35.7685C34.8147 48.9167 33.9001 48.4434 33.2257 47.6011C32.5513 46.7587 32.1724 45.6163 32.1724 44.425C32.1724 43.2337 32.5513 42.0913 33.2257 41.2489C33.9001 40.4066 34.8147 39.9333 35.7685 39.9333ZM10.5961 21.9667H53.7488C54.7025 21.9667 55.6172 22.4399 56.2916 23.2822C56.966 24.1246 57.3448 25.2671 57.3448 26.4583C57.3448 27.6496 56.966 28.7921 56.2916 29.6344C55.6172 30.4768 54.7025 30.95 53.7488 30.95H10.5961C9.64232 30.95 8.72765 30.4768 8.05326 29.6344C7.37887 28.7921 7 27.6496 7 26.4583C7 25.2671 7.37887 24.1246 8.05326 23.2822C8.72765 22.4399 9.64232 21.9667 10.5961 21.9667Z" fill="#00744C"/>
+                    </g>
+                    <defs>
+                        <filter id="filter0_d_90_24" x="-7" y="0" width="81" height="57" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dx="-3" dy="4"/>
+                            <feGaussianBlur stdDeviation="2"/>
+                            <feComposite in2="hardAlpha" operator="out"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_90_24"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_90_24" result="shape"/>
+                        </filter>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+        <div class="main-page-device ">
+                <div class="device-info">
+                    <p id="device-status">متصل شده به دستگاه<span id="selected-device">0</span></p>
+                    <button id="open-device-list">دستگاها</button>
+                </div>
+            
+        
+            <!-- Table list for device selection (hidden by default) -->
+            <div id="device-list" class="hidden">
+                <ul>
+                    <li> 1 </li>
+                    <li> 2 </li>
+                    <li> 3 </li>
+                    <!-- Add more devices as needed -->
+                </ul>
+            </div>
+        </div>
+        <div class="main-page-buttons">
+            <div class="box button-flower-dryness">
+                <div class="button-content">
+                    <h3>70%</h3>
+                    <p>رطوبت خاک</p>
+                </div>
+            </div>
+            <div class="box button-atmosphere">
+                <div class="button-content">
+                    <h3>65%</h3>
+                    <p>دمای هوا</p>
+                </div>
+            </div>
+        </div>
+        <div class="slinder-knob-container">
+            <input type="range" min="0" max="100" value="70" step="1" class="volume-slider">
+            <div class="knob-surround">
+
+                <div id="knob" class="knob"></div>
+          
+                <span class="min">Min</span>
+                <span class="max">Max</span>
+          
+                <div id="tickContainer" class="ticks"></div>
+          
+              </div>
+        </div>
+       <script src="../scripts/main-page.js"></script> 
+       <script src="../scripts/openNav.js"></script>
+        <script src="../scripts/volume-control.js"></script> 
+    </div>
+    
+</body>

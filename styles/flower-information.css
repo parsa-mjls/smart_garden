@@ -1,0 +1,490 @@
+.background-1 {
+    width: 508.45px;
+    height: 973px;
+    border-radius: 50px;
+    flex-shrink: 0;
+    margin: 2px auto;
+}
+
+
+.background-image-1 {
+    background-image: url("../images/roz-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 45px;
+
+}
+
+.background-image-2 {
+
+    background-image: url("../images/sunflower-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 45px;
+
+}
+
+.background-image-3 {
+    background-image: url("../images/maryam-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 45px;
+
+}
+
+.background-image-4 {
+    background-image: url("../images/gol-4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 45px;
+}
+
+.background-image-5 {
+    background-image: url("../images/cuctus-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 45px;
+}
+
+.background-image-6 {
+    background-image: url("../images/gol-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 45px;
+}
+
+.background-image-7 {
+    background-image: url("../images/gol-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 45px;
+}
+
+.background-image-8 {
+    background-image: url("../images/gol-3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 45px;
+}
+
+.back-style {
+    margin: auto;
+    display: flex;
+    direction: rtl;
+    border-radius: 45px;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+
+.cirle-on-right,
+.cirle-on-left {
+    margin-top: 20px;
+    align-items: center;
+}
+
+.cirle-on-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.cirle-on-left {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.topic {
+    width: 269px;
+    height: 77px;
+    border-radius: 20px;
+    background: rgba(134, 204, 64, 0.60);
+    align-items: center;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.text-topic {
+    color: #000;
+    text-shadow: -8px 6px 5px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 77px;
+
+}
+
+.circle {
+    width: 170px;
+    height: 170px;
+    background: rgba(134, 204, 64, 0.60);
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+
+}
+
+.c-text {
+    color: #000;
+    text-shadow: 8px 6px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170px;
+
+}
+
+.rectangle {
+    width: 285px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #86CC40;
+    align-items: center;
+    text-align: center;
+}
+
+.rec-text {
+    width: 275px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #000;
+    text-shadow: 5px -4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+    direction: ltr;
+
+}
+
+.t1 {
+    font-size: 20px;
+}
+
+.all-information {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.learn-more {
+    width: 170px;
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: rgba(90, 155, 26, 0.85);
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    margin-top: 40px;
+    text-decoration: none;
+    direction: ltr;
+    margin-bottom:24px;
+    margin-right: -310px;
+
+}
+
+
+.learn-more-text {
+    flex-shrink: 0;
+    color: #000;
+    text-shadow: 5px -4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+
+
+}
+
+.back1 {
+    width: 170px;
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: rgba(90, 155, 26, 0.85);
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    margin-top: -93px;
+    text-decoration: none;
+    direction: ltr;
+    margin-bottom: 30px;
+    margin-right: 310px;
+}
+
+.back-text {
+    flex-shrink: 0;
+    color: #000;
+    text-shadow: 5px -4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+
+}
+
+.choose{
+    width: 142px;
+    height: 75px;
+    flex-shrink: 0;
+    border-radius: 75px;
+    background: #86CC40;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    margin-top: -93px;
+    text-decoration: none;
+    direction: ltr;
+    margin-bottom: 25px;
+    margin-right: 0px;
+}
+
+.choose-text{
+    flex-shrink: 0;
+    color: #000;
+    text-shadow: 5px -4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .flower1-1 {
+    width: 508.45px;
+    height: 973px;
+    border-radius: 45px;
+    opacity: 0.8;
+    background: lightgray 50% / cover no-repeat;
+    position: relative;
+}
+
+
+
+.circle-2 {
+    color: #000;
+    text-align: center;
+    text-shadow: 8px 6px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 349px;
+    right: 360px;
+
+}
+
+.c-text-2 {
+    color: #000;
+    text-align: center;
+    text-shadow: 8px 6px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    bottom: 60px;
+    left: 35px;
+
+
+}
+
+.rectangle-2 {
+    width: 275px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 58px;
+    background: #86CC40;
+    position: absolute;
+    bottom: 159px;
+    left: 212px;
+}
+
+.rec-text-2 {
+    color: #000;
+    text-shadow: 5px -4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 18px;
+    left: 38px;
+
+}
+
+.circle-3 {
+    width: 160px;
+    height: 164px;
+    flex-shrink: 0;
+    fill: rgba(134, 204, 64, 0.85);
+    position: absolute;
+    bottom: -50px;
+    right: 48px;
+}
+
+.c-text-3 {
+    width: 147px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    text-shadow: 8px 6px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 60px;
+}
+
+.rectangle-3 {
+    width: 275px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 58px;
+    background: #86CC40;
+    position: absolute;
+    top: 50px;
+    right: 160px;
+}
+
+.rec-text-3 {
+    color: #000;
+    text-align: center;
+    text-shadow: 5px -4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 17px;
+    right: 80px;
+}
+
+.circle-4 {
+    width: 160px;
+    height: 160px;
+    flex-shrink: 0;
+    fill: rgba(134, 204, 64, 0.85);
+    position: absolute;
+    right: 310px;
+}
+
+.c-text-4 {
+    color: #000;
+    text-align: center;
+    text-shadow: 8px 6px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.rectangle-4 {
+    width: 272px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 58px;
+    background: #86CC40;
+    position: absolute;
+    top: 210px;
+    right: 38px;
+}
+
+.rec-text-4{
+    color: #000;
+text-align: center;
+text-shadow: 5px -4px 4px rgba(0, 0, 0, 0.25);
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top: 12px;
+right: 65px;
+} */
